@@ -14,7 +14,7 @@ gender_data = {
 }
 selected_gender = st.selectbox("Select a gender to see average calories:", list(gender_data.keys()))
 st.success(f"Average calories: {gender_data[selected_gender]}")
-
+ 
 st.divider()
 st.subheader("heart rate by duration")
 duration_data = {
